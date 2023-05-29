@@ -7,11 +7,11 @@ import * as dotenv from 'dotenv'
 dotenv.config()
 // imports
 import express from 'express'
-import { connection } from './dataBase/connection/connection.js'
 import globalError from './utilities/error/globalError.js'
 import { userRoute } from './src/user/user.routers.js';
 import taskRouter from './src/taskModuls/task.router.js';
 import appError from './utilities/error/appError.js';
+import { connection } from './database/connection/connection.js';
 // server express
 const app = express()
 const port = process.env.port || 8000
