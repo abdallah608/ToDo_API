@@ -11,6 +11,7 @@ import { connection } from './dataBase/connection/connection.js'
 import globalError from './utilities/error/globalError.js'
 import { userRoute } from './src/user/user.routers.js';
 import taskRouter from './src/taskModuls/task.router.js';
+import appError from './utilities/error/appError.js';
 // server express
 const app = express()
 const port = process.env.port || 8000
