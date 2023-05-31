@@ -1,4 +1,4 @@
-import { taskModel } from "../../../database/models/taskModel/task.Model.js";
+import { taskModel } from "../../../database/models/taskModel/task.model.js";
 import appError from "../../../utilities/error/appError.js";
 import catchAsyncError from "../../../utilities/error/catchAsyncError.js";
 
