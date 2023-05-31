@@ -1,11 +1,11 @@
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
+import { userModel } from "../../../database/models/userModel/user.model.js"
 import appError from "../../../utilities/error/appError.js"
 import catchAsyncError from "../../../utilities/error/catchAsyncError.js"
 import { sendEmail } from "../../../utilities/services/email.js"
 import { sendForgetEmail } from "../../../utilities/services/forgetPassword.js"
 import { nanoid } from "nanoid"
-import { userModel } from "../../../dataBase/models/userModel/user.model.js"
 
 
 //-- register --//
