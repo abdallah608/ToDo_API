@@ -3,7 +3,6 @@ import bcrypt from "bcrypt"
 import appError from "../../../utilities/error/appError.js"
 import catchAsyncError from "../../../utilities/error/catchAsyncError.js"
 import { sendEmail } from "../../../utilities/services/email.js"
-import cloudinary from "../../../utilities/upload/cloudinary.js"
 import { sendForgetEmail } from "../../../utilities/services/forgetPassword.js"
 import { nanoid } from "nanoid"
 import { userModel } from "../../../dataBase/models/userModel/user.model.js"
@@ -11,18 +10,17 @@ import { userModel } from "../../../dataBase/models/userModel/user.model.js"
 
 //-- register --//
 export const signup =catchAsyncError(async(req,res,next)=>{
-    if(!req.file){return next(new appError("file type not accepted",400))}
-    let{email,name,password,confirmPassword,age,mobileNumber}=req.body
-    let founded= await userModel.findOne({email})
-    if(founded){return next(new appError("Email already registered",400))}
-        if(password!==confirmPassword){return next(new appError("Password not matched",400))}
-        let {secure_url} = await cloudinary.uploader.upload(req.file.path,{folder:"pic"})
-        let  hashPassword= bcrypt.hashSync(password,Number(process.env.Rounded))
-        let addUser = await userModel.insertMany({email,name,password:hashPassword,age,mobileNumber,photoPath:secure_url})
-        sendEmail({email,name})
-        res.status(201).json({message:"done",addUser})
-    
-})
+
+        let{email,name,password,confirmPassword,age,mobileNumber}=req.body
+        let founded= await userModel.findOne({email})
+        if(founded){return next(new appError("Email already registered",400))}
+            if(password!==confirmPassword){return next(new appError("Password not matched",400))}
+            let  hashPassword= bcrypt.hashSync(password,Number(process.env.Rounded))
+            let addUser = await userModel.insertMany({email,name,password:hashPassword,age,mobileNumber})
+            sendEmail({email,name})
+            res.status(201).json({message:"done",addUser})
+        
+    })
 //-- verify mail --//
 export const verify= catchAsyncError(async(req,res,next)=>{
         let {token} = req.params
