@@ -583,7 +583,7 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
       <div class="column" style='text-align: left;color: #60666d;font-size: 14px;line-height: 21px;font-family: "Open Sans",sans-serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);'>
     
         <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 24px;Margin-bottom: 24px;">
-  <h1 class="size-48" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 36px;line-height: 43px;font-family: bitter,georgia,serif;text-align: center;" lang="x-size-48"><span class="font-bitter"><font color="#ffffff"><strong>LinkedIN</strong></font></span></h1>
+  <h1 class="size-48" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 36px;line-height: 43px;font-family: bitter,georgia,serif;text-align: center;" lang="x-size-48"><span class="font-bitter"><font color="#ffffff"><strong>Task Management</strong></font></span></h1>
 </div>
     
       </div>
@@ -601,7 +601,7 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
 </div>
     
         <div style="Margin-left: 20px;Margin-right: 20px;">
-  <h2 class="size-24" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 20px;line-height: 28px;text-align: center;" lang="x-size-24"><strong>Verify Your Email</strong></h2><p style="Margin-top: 16px;Margin-bottom: 0;"><strong>Hello ${options.name},</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Thank you for signing up to LinkedIN App.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Please click on the following button to activate your token.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Sincerely,<br>Team LinkedIN</strong></p>
+  <h2 class="size-24" style="Margin-top: 0;Margin-bottom: 0;font-style: normal;font-weight: normal;color: #44a8c7;font-size: 20px;line-height: 28px;text-align: center;" lang="x-size-24"><strong>Verify Your Email</strong></h2><p style="Margin-top: 16px;Margin-bottom: 0;"><strong>Hello ${options.name},</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Thank you for signing up to Task Management App.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Please click on the following button to activate your token.</strong></p><p style="Margin-top: 20px;Margin-bottom: 20px;"><strong>Sincerely,<br>Team Task Management</strong></p>
 </div>
     
         <div style="Margin-left: 20px;Margin-right: 20px;">
@@ -611,7 +611,7 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
 </div>
     
     <div style="font-size: 12px;font-style: normal;font-weight: normal;" align="center">
-      <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-bottom" style="border: 0;display: block;height: auto;width: 90%;max-width: 720px;" alt="" width="600" src="https://i1.createsend1.com/ei/d/E8/44B/C1E/133021/csfinal/64fdceb12bf24b41b92e654dee7b59cf.jpg">
+      <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-bottom" style="border: 0;display: block;height: auto;width: 90%;max-width: 720px;" alt="" width="600" src="https://blog.orangescrum.com/wp-content/uploads/2019/09/Google-Tasks-%E2%80%93-Your-Personal-Task-Manager.png">
     </div>
   
       </div>
@@ -626,13 +626,8 @@ body{background-color:#f5f7fa}.mso h1{}.mso h1{font-family:sans-serif !important
         <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;">
           <table class="email-footer__links emb-web-links" style="border-collapse: collapse;table-layout: fixed;"><tbody><tr>
           
-<td class="emb-web-links" style="padding: 0;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="https://www.facebook.com/photobookww"><img style="border: 0;" src="https://i8.createsend1.com/static/eb/customise/13-the-blueprint-3/images/facebook.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="https://www.twitter.com/photobookww"><img style="border: 0;" src="https://i10.createsend1.com/static/eb/customise/13-the-blueprint-3/images/twitter.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a 
-style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="http://instagram.com/photobookww"><img style="border: 0;" src="https://i1.createsend1.com/static/eb/customise/13-the-blueprint-3/images/instagram.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #b9b9b9;" href="http://www.photobookworldwide.com"><img style="border: 0;" src="https://i3.createsend1.com/static/eb/customise/13-the-blueprint-3/images/website.png" width="26" height="26"></a></td><td class="emb-web-links" style="padding: 0 0 0 3px;width: 26px;"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: 
-#b9b9b9;" href="https://pinterest.com/photobookww"><img style="border: 0;" src="https://i4.createsend1.com/static/eb/customise/13-the-blueprint-3/images/pinterest.png" width="26" height="26"></a></td>
+
           </tr></tbody></table>
-          <div style="Margin-top: 20px;">
-            <div>Copyright &#169; 2016 LinkedIN Worldwide. All rights reserved.&nbsp;</div>
-          </div>
           <div style="Margin-top: 18px;">
             
           </div>
