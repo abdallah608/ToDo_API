@@ -17,7 +17,8 @@ export const signup =catchAsyncError(async(req,res,next)=>{
             if(password!==confirmPassword){return next(new appError("Password not matched",400))}
             let  hashPassword= bcrypt.hashSync(password,Number(process.env.Rounded))
             let addUser = await userModel.insertMany({email,name,password:hashPassword,age,mobileNumber})
-            sendEmail({email,name})
+            let link= `${req.protocol}://${req.headers.host}`
+            sendEmail({email,name,link})
             res.status(201).json({message:"done",addUser})
         
     })
@@ -113,8 +114,8 @@ export const forgetPassword = catchAsyncError(
         if(!user){return next(new appError("user not found please register as a new user",404))}
         let code = nanoid(4)
         let name = user.name
-        console.log({name});
-        sendForgetEmail({email,name,code})
+        let link= `${req.protocol}://${req.headers.host}`
+        sendForgetEmail({email,name,code,link})
         const sendCode= await userModel.findOneAndUpdate({email},{code},{new:true})
         res.status(200).json({message:"done",sendCode})
     }
