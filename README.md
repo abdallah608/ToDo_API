@@ -26,12 +26,19 @@ handle user routers :
 
 Handle ToDo routers :
 
-/todo/add    (POST)====>{title,description,createdBy,token}
-/todo/get  (GET)====>{token}
-/todo/updateTodo   (PUT)====>{title,description,_id,token}
-/todo/updateStatus  (PUT)====>{status,_id,token}
-/todo/updateAllTodo  (PUT) ====> {status,createdBy,token}
-/todo/deleteTodo  (DELETE) ====>{_id,token}
-/todo/deleteAll  (DELETE) ====>{createdBy,token}
-/todo/search (GET) ===>{title,token}
+/todo/add  (POST)====>{title,description,createdBy,token}
 
+/todo/get  (GET)====>{token}
+
+/todo/updateTodo   (PUT)====>{title,description,_id,token}
+
+/todo/updateStatus  (PUT)====>{status,_id,token}
+
+
+/todo/updateAllTodo  (PUT) ====> {status,createdBy,token}
+
+/todo/deleteTodo  (DELETE) ====>{_id,token}
+
+/todo/deleteAll  (DELETE) ====>{createdBy,token}
+
+/todo/search (GET) ===>{title,token}
